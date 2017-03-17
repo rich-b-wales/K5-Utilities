@@ -13,9 +13,9 @@ get_token.sh - Uses the init.sh to obtain a timenbound token.
 Destructive Deletion Scripts   
 The below scripts are useful in a test environment. However they will delete all the components   
 delete_containers.sh -- Deletes all key stores -- usage -- delete_containers.sh containers  
-delete_secrets.sh -- Deletes all secrets -- usage delete_secrets.sh secrets
+delete_secrets.sh -- Deletes all secrets -- usage delete_secrets.sh secrets  
 delete_vpn -- Can be used to delete SSL_services and  VPN objects - must delete SSL first   
---------------SSL -- usage delete_vpn.sh ssl-vpn-connections ssl_vpn_connections
+--------------SSL -- usage delete_vpn.sh ssl-vpn-connections ssl_vpn_connections  
 --------------VPN -- usage delete_vpn.sh vpnservices vpnservices
 
 Status Scripts  
